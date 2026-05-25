@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Quartz 4</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Quartz 4</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>GoHighLevel — Overview</title>
+    <link>https://quartz.jzhao.xyz/Systems/GoHighLevel/Overview</link>
+    <guid>https://quartz.jzhao.xyz/Systems/GoHighLevel/Overview</guid>
+    <description><![CDATA[ GoHighLevel Component GoHighLevel (GHL) is the CRM and workflow engine of the Surplus application. ]]></description>
+    <pubDate>Mon, 25 May 2026 15:22:57 GMT</pubDate>
+  </item><item>
+    <title>Calendar</title>
+    <link>https://quartz.jzhao.xyz/Operations/Calendar</link>
+    <guid>https://quartz.jzhao.xyz/Operations/Calendar</guid>
+    <description><![CDATA[ Calendar May 2026 SMTWThFSa1 Team Lead Meeting234 Surplus Funds Project Resume5 AI Coding Tools Workshop6 Scrum Master Designation789101112131415 Phase 1 Deadline16171819202122 Integration: Web Scraper → DB23242526272829 Phase 1 Deadline3031 June 2026 SMTWThFSa1 Start of Summer Internship23456789101... ]]></description>
+    <pubDate>Mon, 25 May 2026 14:23:03 GMT</pubDate>
+  </item><item>
+    <title>Daily Schedule</title>
+    <link>https://quartz.jzhao.xyz/Operations/Daily-Schedule</link>
+    <guid>https://quartz.jzhao.xyz/Operations/Daily-Schedule</guid>
+    <description><![CDATA[ Daily Schedule TimeEventDescription5:00Start of InternshipInterns log in to the internship6:05Roll CallConfirmation of attendance by the Roll Call Master6:20Internship ProperPerform internship duties assigned by Team Leads12:50End of Day (EOD)Submission of EOD report See also: Scrum Handbook — Daily... ]]></description>
+    <pubDate>Mon, 25 May 2026 14:23:03 GMT</pubDate>
+  </item><item>
+    <title>Scrum Handbook — Surplus Project</title>
+    <link>https://quartz.jzhao.xyz/Operations/Scrum-Handbook</link>
+    <guid>https://quartz.jzhao.xyz/Operations/Scrum-Handbook</guid>
+    <description><![CDATA[ Metawatt Scrum Handbook — Surplus Project Effective project management is the key to maximizing productivity across 20+ developers on 3 distinct teams. ]]></description>
+    <pubDate>Mon, 25 May 2026 14:22:03 GMT</pubDate>
+  </item><item>
+    <title>Agentic Coding Guidelines</title>
+    <link>https://quartz.jzhao.xyz/Engineering/Agentic-Coding</link>
+    <guid>https://quartz.jzhao.xyz/Engineering/Agentic-Coding</guid>
+    <description><![CDATA[ Agentic Coding Guidelines The era of writing every line of code manually is ending. ]]></description>
+    <pubDate>Mon, 25 May 2026 14:20:14 GMT</pubDate>
+  </item><item>
+    <title>Branching Strategy</title>
+    <link>https://quartz.jzhao.xyz/Engineering/Branching-Strategy</link>
+    <guid>https://quartz.jzhao.xyz/Engineering/Branching-Strategy</guid>
+    <description><![CDATA[ Branching Strategy graph TD Z(Test Branch) A(Feature Branch) B(Develop Branch) C(Staging Branch) D(Production Branch) E(Bug Branch) Z --&gt;|&quot;Merge to Feature&quot;| A A --&gt;|&quot;Passes all tests&quot;| B B --&gt;|&quot;All feature branches merged&quot;| C C --&gt;|&quot;Passes staging&quot... ]]></description>
+    <pubDate>Mon, 25 May 2026 14:18:20 GMT</pubDate>
+  </item><item>
+    <title>Git Guidelines</title>
+    <link>https://quartz.jzhao.xyz/Engineering/Git-Guidelines</link>
+    <guid>https://quartz.jzhao.xyz/Engineering/Git-Guidelines</guid>
+    <description><![CDATA[ Git Guidelines Branch Format &lt;branch-type&gt;/&lt;branch-name&gt;-#&lt;ticket-tag&gt; All characters lowercase. Use kebab-case for spaces. ]]></description>
+    <pubDate>Mon, 25 May 2026 14:18:20 GMT</pubDate>
+  </item><item>
+    <title>Agentic RAG / Knowledge Base — Overview</title>
+    <link>https://quartz.jzhao.xyz/Systems/Agentic-RAG/Overview</link>
+    <guid>https://quartz.jzhao.xyz/Systems/Agentic-RAG/Overview</guid>
+    <description><![CDATA[ Agentic RAG / Knowledge Base The Agentic RAG / Knowledge Base (RAG/KB) component is the AI decision engine of the Surplus application. ]]></description>
+    <pubDate>Mon, 25 May 2026 14:17:12 GMT</pubDate>
+  </item><item>
+    <title>GoHighLevel — Integration</title>
+    <link>https://quartz.jzhao.xyz/Systems/GoHighLevel/Integration</link>
+    <guid>https://quartz.jzhao.xyz/Systems/GoHighLevel/Integration</guid>
+    <description><![CDATA[ GoHighLevel Integration GHL is the most connected operational component in the Surplus system. ]]></description>
+    <pubDate>Mon, 25 May 2026 13:57:13 GMT</pubDate>
+  </item><item>
+    <title>API &amp; Database — Integration</title>
+    <link>https://quartz.jzhao.xyz/Systems/API-Database/Integration</link>
+    <guid>https://quartz.jzhao.xyz/Systems/API-Database/Integration</guid>
+    <description><![CDATA[ API &amp; Database Integration AND connects to every other component in the Surplus system. It is the glue that holds the application together. ]]></description>
+    <pubDate>Mon, 25 May 2026 13:50:49 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
