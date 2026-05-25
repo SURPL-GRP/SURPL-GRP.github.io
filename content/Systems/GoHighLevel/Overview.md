@@ -25,6 +25,24 @@ GHL sits between the data layer ([[Systems/API-Database/Overview|AND]]) and the 
 | Voice Calls | Retell AI + ElevenLabs |
 | Email | GHL Native |
 
+```mermaid
+flowchart LR
+    GHL["GoHighLevel<br/>CRM & Workflow Engine"]
+
+    subgraph Execution_Layer ["Execution Layer"]
+        SMS["SMS<br/>DropCowboy"]
+        CALL["Voice Calls<br/>Retell AI + ElevenLabs"]
+        EMAIL["Email<br/>GHL Native"]
+    end
+
+    GHL --> SMS
+    GHL --> CALL
+    GHL --> EMAIL
+    SMS -->|"Replies"| GHL
+    CALL -->|"Call results"| GHL
+    EMAIL -->|"Replies"| GHL
+```
+
 ## Website Builder
 
 GHL also provides built-in website creation tools. This is used to build a client-facing site that informs leads and clients about the Surplus Funds Acquisition process, establishing credibility before and during the closing phase.
