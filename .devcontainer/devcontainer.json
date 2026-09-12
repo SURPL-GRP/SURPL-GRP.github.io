@@ -1,0 +1,57 @@
+{
+  // Orca cloud-only environment for SURPL-GRP.github.io.
+  //
+  // The Orca runtime is installed at container-create time and started in the
+  // background on every container start; port 6768 is forwarded to the
+  // developer's machine so the local Orca Desktop app drives this Codespace.
+  // Nothing needs to be cloned locally. See ORCA_CODESPACE_SETUP.md.
+  //
+  // There is deliberately no "visibility" key on port 6768. It is not part of
+  // the devcontainer spec -- portsAttributes accepts label, protocol,
+  // onAutoForward, requireLocalPort and elevateIfNeeded -- so it would be
+  // silently ignored. Codespaces forwards ports as private by default; to
+  // *enforce* that, use the org-level Codespaces port visibility policy.
+  "name": "SURPL-GRP.github.io (Orca cloud-only)",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "onCreateCommand": "bash .devcontainer/orca-install.sh",
+  "postCreateCommand": "npm ci 2>/dev/null || npm install",
+  "postStartCommand": "bash .devcontainer/orca-serve.sh",
+  "forwardPorts": [
+    6768,
+    8080
+  ],
+  "portsAttributes": {
+    "8080": {
+      "label": "Quartz",
+      "onAutoForward": "openPreview"
+    },
+    "6768": {
+      "label": "Orca runtime",
+      "onAutoForward": "notify",
+      "requireLocalPort": true
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "editorconfig.editorconfig"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "[typescript]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "[typescriptreact]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        }
+      }
+    }
+  },
+  "remoteUser": "vscode"
+}
